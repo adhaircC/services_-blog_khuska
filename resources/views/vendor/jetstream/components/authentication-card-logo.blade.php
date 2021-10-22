@@ -1,0 +1,1 @@
+<img src="{{asset('/assets/logos/gpon.png')}}" alt="" style="width:300px;">

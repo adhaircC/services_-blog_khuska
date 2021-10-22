@@ -1,0 +1,395 @@
+.margin-logo {
+    margin-left: 140px;
+}
+
+.h-40 {
+	height: 10rem;
+}
+
+.fixed-header, .fixed-footer{
+    width: 100%;
+    height: 10rem;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    z-index: 9;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+}  
+
+.sticky + .content {
+
+    padding-top: 102px;
+  
+  }
+
+.flex-container {
+    padding-top: 7rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+.service-card {
+  background-color: #fff;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
+  
+}
+.service-card .banner {
+  background-image: url("https://images.unsplash.com/photo-1545703549-7bdb1d01b734?ixlib=rb-1.2rop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.service-card .banner svg {
+  background-image: url("../img/fibra.jpg");
+  width: 400px;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
+  border-radius: 50%;
+  transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.service-card .banner svg:hover {
+  transform: translateY(50%) scale(1.3);
+}
+.service-card .menu {
+  width: 100%;
+  height: 5.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  box-sizing: border-box;
+}
+.service-card .menu .opener {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  border-radius: 50%;
+  transition: background-color 100ms ease-in-out;
+}
+.service-card .menu .opener:hover {
+  background-color: #f2f2f2;
+}
+.service-card .menu .opener span {
+  background-color: #404040;
+  width: 0.4rem;
+  height: 0.4rem;
+  position: -webkit-sticky;
+  top: 0;
+  left: calc(50% - 0.2rem);
+  border-radius: 50%;
+
+}
+.service-card h2.name {
+  text-align: center;
+  padding: 0 2rem 0.5rem;
+  margin: 0;
+}
+.service-card .title {
+  color: #a0a0a0;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0 2rem 1.2rem;
+}
+.service-card .actions {
+  padding: 0 2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  order: 99;
+}
+.service-card .actions .follow-info {
+  padding: 0 0 1rem;
+  display: flex;
+}
+.service-card .actions .follow-info h2 {
+  text-align: center;
+  width: 50%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.service-card .actions .follow-info h2 a {
+  text-decoration: none;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.8rem;
+  transition: background-color 100ms ease-in-out;
+}
+.service-card .actions .follow-info h2 a span {
+  color: #1c9eff;
+  font-weight: bold;
+  transform-origin: bottom;
+  transform: scaleY(1.3);
+  transition: color 100ms ease-in-out;
+}
+.service-card .actions .follow-info h2 a small {
+  color: #afafaf;
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+.service-card .actions .follow-info h2 a:hover {
+  background-color: #f2f2f2;
+}
+.service-card .actions .follow-info h2 a:hover span {
+  color: #007ad6;
+}
+.service-card .actions .follow-btn button {
+  color: inherit;
+  font: inherit;
+  font-weight: bold;
+  background-color: #ffd01a;
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 1.5rem/50%;
+  transition: background-color 100ms ease-in-out, transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.service-card .actions .follow-btn button:hover {
+  background-color: #efb10a;
+  transform: scale(1.1);
+}
+.service-card .actions .follow-btn button:active {
+  background-color: #e8a200;
+  transform: scale(1);
+}
+.service-card .desc {
+  text-align: justify;
+  padding: 0 2rem 2.5rem;
+  order: 100;
+}
+
+.promotion-cards-container{
+    display: grid;
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(200px,1fr));
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.min-offers-container{
+    display: grid;
+    gap: 15px;
+    grid-template-rows: repeat(2, minmax(200px,1fr));
+}
+
+.second-promotion-cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px,1fr));
+    gap: 15px;
+}
+
+
+.promotion-card{
+    position: relative;
+    height: 100%;
+    background: linear-gradient(to right,#e66465, #9198e5);
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.318);
+}
+
+.second-promotion-card{
+    position: relative;
+    height: 100%;
+    background: linear-gradient(to right,#e66465, #9198e5);
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.318);
+}
+
+
+.promotion-card-label {
+    position: absolute;
+    top: .45rem;
+    left: .45rem;
+    background: #089f8a;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: white;
+    padding: 0.5em;
+}
+
+.second-img-container{
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 99%);  
+}
+
+.img-container{
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 99%);    
+}
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+}
+
+.promotion-card-details{
+    text-align: justify;
+    padding: 1rem 2rem ;
+    order: 100;
+    font-size: large;
+}
+
+.second-promotion-card-details{
+    text-align: justify;
+    padding: 2rem 2rem 2.5rem;
+    order: 100;
+    font-size: medium;
+}
+
+.promotion-card:hover{
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.second-promotion-card:hover{
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-form {
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.318);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+.card-form:after {
+    position: absolute;
+    top: .5em;
+    left: .5em;
+    width: calc(100% - 1em);
+    height: calc(100% - 1em);
+    content: "";
+    background: #252833;
+  }
+
+.card-form:hover{
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.form-title {
+    position: absolute;
+    margin: auto;
+    top: 1rem;
+    left: 1rem;
+    font-size: 4vw;
+    font-weight: 900;
+    z-index: 5;
+    text-transform: uppercase;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+	.promotion-cards-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+	}
+
+	.second-promotion-cards-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	.promotion-cards-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+	}
+
+	.second-promotion-cards-container {
+		display: grid;
+		grid-template-columns: auto;
+		gap: 10px;
+	}
+}
+
+
+@media screen and (max-height: 900px) {
+
+	.promotion-card{
+        height: 70%;
+    }
+
+    .promotion-card-details{
+        font-size: large;
+    }
+
+    .img-container{
+        height: 50%;
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.promotion-cards-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 10px;
+	}
+
+	.second-promotion-cards-container {
+		display: grid;
+		grid-template-columns: auto;
+		gap: 10px;
+	}
+} 
+
+  
