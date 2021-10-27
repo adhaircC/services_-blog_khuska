@@ -1370,6 +1370,7 @@ select {
 }
 .cursor-pointer {
 	cursor: pointer;
+	margin-right: 50px;
 }
 .list-inside {
 	list-style-position: inside;
@@ -2332,3 +2333,90 @@ select {
 	}
 }
 
+header{
+	width: 100%;
+	height: 75px;
+	position: relative;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.menu a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px 42px;
+	font-size: 20px;
+}
+
+/*Estilos al boton de menu*/ 
+#btn-menu{
+	display: none;
+}
+.boton{
+	float: right;
+	display: none;
+	/*padding-left: 80px;*/
+}
+.boton label{
+	color:#fff;
+	/*background: #2a343e;*/
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+nav a:hover {
+	background-color:rgba(119, 122, 160,0.2);
+	border-radius: 4px;
+	color: black;
+}
+.menu a p{
+	padding: 10px;
+}
+/*--------------*/ 
+/*codigo para dispositivos moviles*/ 
+@media only screen and (min-width:320px) and (max-width:768px){
+	.header{
+		position: fixed;
+		height: 10px;
+	}
+	.cursor-pointer{
+		width: 150px;
+		top: 0px;
+	}
+	.boton{
+		line-height: 60px;
+	}
+	.menu{
+		position: absolute;
+		background-color: rgba(45, 118, 192, 0.98);
+		width: 100%;
+		/*height: 30vh;*/
+		top: 127px;
+		left: 0;
+		transition: all 600ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .menu{
+		transform: translateX(0%);
+	}
+	.menu a{
+		display:block;
+		/*margin-top: 18px;*/
+		border-bottom: 2px solid #457fb3;
+		font-size: 20px;
+		margin: 0px 0px;
+	}
+	.menu a p{
+		margin: 0 40px;
+	}
+	
+	.boton{
+		display: block;
+	}
+	.h-40 {
+		height: 7rem;
+	  }
+}

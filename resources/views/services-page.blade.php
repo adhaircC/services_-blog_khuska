@@ -52,18 +52,23 @@
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/KhuskaCyA" target="_blank">
             <i class="icon-social-facebook"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
+          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/khuskamarketing" target="_blank">
             <i class="icon-social-twitter"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white mr-3" href="https://github.com/santteegt/wkhuska" target="_blank">
             <i class="icon-social-github"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://goo.gl/maps/q9L2WRtjkX3mPWJZ9" target="_blank">
+            <i class="fas fa-map-marker-alt"></i>
           </a>
         </li>
       </ul>
