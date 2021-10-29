@@ -24,8 +24,7 @@
             </div>
         </div>
         <div class="card-form">
-            <div class="form-title">Cambiarme 
-                ahora</div>
+            <div class="form-title">Cambiarme ahora</div>
         </div>
     </div>
 </div>

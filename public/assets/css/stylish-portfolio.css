@@ -86,8 +86,10 @@
  }
  
  .masthead {
-   padding-top: 10rem;
-   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+   padding-top: 7rem;
+   /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead1.jpg");*/
+   /*background-color:#3a65aa;*/
+   background-color: #fff;
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -101,7 +103,7 @@
  
  @media (min-width: 992px) {
    .masthead {
-     height: 100vh;
+     height: 111vh;
    }
    .masthead h1 {
      font-size: 5.5rem;
@@ -345,7 +347,8 @@
  }
  
  .bg-primary {
-   background-color: #284246  !important;
+   /*background-color: #284246  !important;*/
+   background-color: #3a65aa !important;
  }
  
  .text-primary {
@@ -357,7 +360,7 @@
  }
 
 
- @media only screen and (min-width:320px) and (max-width:768px){
+ @media only screen and (max-width:820px){
   footer.footer .social-link {
     display: block;
     height: 3rem;
@@ -368,5 +371,55 @@
     transition: background-color 0.15s ease-in-out;
     box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   }
+  .masthead {
+    height: 200%;
+    padding-top: 28%;
+  }
+  .btn-xl {
+    padding: 5px 5px;
+  }
   
+}
+
+@media only screen and (max-width:400px) and (max-height:700px) {
+  footer.footer .social-link {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3.3rem;
+    font-size: 1rem;
+    background-color: #1D809F;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  .masthead {
+    height: 215%;
+    padding-top: 28%;
+  }
+  .btn-xl {
+    padding: 5px 5px;
+  }
+  
+}
+
+
+
+@media only screen and (max-width:350px){
+  footer.footer .social-link {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3.3rem;
+    font-size: 1rem;
+    background-color: #1D809F;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  .masthead {
+    height: 240%;
+    padding-top: 28%;
+  }
+  .btn-xl {
+    padding: 5px 5px;
+  }
 }

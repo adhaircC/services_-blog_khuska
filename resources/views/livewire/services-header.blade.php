@@ -12,11 +12,18 @@
             <a class=linea href="#"><p>Inicio</p></a>
             <a class=linea href="#"><p>Servicios</p></a> 
             <a class=linea href="#"><p>Sobre Nosotros</p> </a>
-            <a class=linea href="#"><p>Compartir 
-                <i class="fab fa-facebook-square"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-instagram"></i></p>
-            </a>
+            <div class="linea compartir">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            
         </nav>
     </div>
     
