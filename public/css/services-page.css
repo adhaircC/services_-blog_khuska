@@ -212,7 +212,7 @@
     position: relative;
     height: 100%;
     /*background: linear-gradient(to right,#e66465, #9198e5);*/
-    background: #528e86;
+    background: #3a65aabf;
     border-radius: 3px;
     box-shadow: 0 0 30px rgba(0,0,0,0.318);
 }
@@ -220,7 +220,7 @@
 .second-promotion-card{
     position: relative;
     height: 100%;
-    background: #cfa038cf;
+    background: #236876;
     border-radius: 3px;
     box-shadow: 0 0 30px rgba(0,0,0,0.318);
 }
