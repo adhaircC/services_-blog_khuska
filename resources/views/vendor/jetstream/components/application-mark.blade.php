@@ -1,1 +1,1 @@
-<img src="{{asset('/assets/logos/gpon.png')}}" alt="" style="width:220px;">
+<img src="{{asset('/assets/logos/gpon.png')}}" alt="" style="width:90%;">

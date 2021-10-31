@@ -1373,7 +1373,8 @@ select {
 .cursor-pointer {
 	cursor: pointer;
 	margin-right: 6%;
-	width: 13%;
+	width: 12%;
+	margin-left: 2%;
 }
 .list-inside {
 	list-style-position: inside;

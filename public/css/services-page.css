@@ -29,23 +29,24 @@
   }
 
 .flex-container {
-    padding-top: 1rem;
-    padding-left: 1%;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    margin: 4%;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /*justify-content: center;*/
-    overflow-x: auto;
+  padding-top: 1rem;
+  /* padding-left: 1%; */
+  /* padding-right: 100px; */
+  padding-bottom: 50px;
+  margin: 4%;
+  list-style: none;
+  display: -webkit-inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 91%;
+  overflow: hidden;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 .service-card {
-  background-color: #fff;
-  width: 300px;
+  background-color: #01243e;
+  width: 259px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -54,7 +55,7 @@
   
 }
 .service-card .banner {
-  background-image: url("https://images.unsplash.com/photo-1545703549-7bdb1d01b734?ixlib=rb-1.2rop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+  background-image: url("../assets/img/headerCard.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,13 +77,16 @@
 }
 .service-card .menu {
   width: 100%;
-  height: 3.5rem;
+  height: 6.5rem;
   padding: 1rem;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  position: relative;
+  /* align-items: flex-start; */
+  justify-content: center;
+  /* position: relative; */
   box-sizing: border-box;
+  /* text-align: center; */
+  margin-top: 6%;
+  color: antiquewhite;
 }
 .service-card .menu .opener {
   width: 2.5rem;
@@ -106,7 +110,7 @@
 }
 .service-card h2.name {
   text-align: center;
-  padding: 0 2rem 0.5rem;
+  /*padding: 0 2rem 0.5rem;*/
   margin: 0;
 }
 .service-card .title {
@@ -116,7 +120,7 @@
   padding: 0 2rem 1.2rem;
 }
 .service-card .actions {
-  padding: 0 2rem 1.2rem;
+  padding: 0 2rem 3rem;
   display: flex;
   flex-direction: column;
   order: 99;
@@ -130,6 +134,7 @@
   width: 50%;
   margin: 0;
   box-sizing: border-box;
+  font-size: 4rem;
 }
 .service-card .actions .follow-info h2 a {
   text-decoration: none;
@@ -211,8 +216,8 @@
 .promotion-card{
     position: relative;
     height: 100%;
-    /*background: linear-gradient(to right,#e66465, #9198e5);*/
-    background: #3a65aabf;
+    background: linear-gradient(to right,#e66465, #9198e5);
+    /*background: #3a65aabf;*/
     border-radius: 3px;
     box-shadow: 0 0 30px rgba(0,0,0,0.318);
 }
@@ -220,7 +225,8 @@
 .second-promotion-card{
     position: relative;
     height: 100%;
-    background: #236876;
+    /*background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);*/
+    background: #a58cc7;
     border-radius: 3px;
     box-shadow: 0 0 30px rgba(0,0,0,0.318);
 }
@@ -286,8 +292,8 @@ img{
     width: 100%;
     border-radius: 3px;
     box-shadow: 0 0 30px rgba(0,0,0,0.318);
-    /*background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);*/
-    background-color: rgba(169, 196, 224, 0.9);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    /*background-color: rgba(169, 196, 224, 0.9);*/
 }
 .card-form:after {
     position: absolute;
@@ -316,8 +322,8 @@ img{
   font-weight: 900;
   z-index: 5;
   text-transform: uppercase;
-  /*background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);*/
-  background-color: #f3e9e7;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  /*background-color: #f3e9e7;*/
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -325,9 +331,38 @@ img{
 
 
 
+.datos .name{
+  font-size: 4rem;
+}
 
+.datos .title{
+  font-size: 1.2rem;
+  color: antiquewhite;
+}
 
+.datos .sub-name{
+  font-size: 1.5rem;
+  text-align: center;
+}
 
+.datos .precio{
+  display: flex;
+  margin: auto;
+  padding-bottom: inherit;
+  font-size: 2rem;
+  color: antiquewhite;
+}
+
+.datos .precio h1 h2{
+  text-align: center;
+}
+
+.datos .servicio{
+  color: antiquewhite;
+  display: flex;
+  margin: auto;
+  padding-top: 7%;
+}
 
 
 
@@ -453,7 +488,7 @@ img{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*justify-content: center;*/
+    justify-content: initial;
     overflow-x: auto;
   }
   .service-card .menu {
@@ -468,7 +503,7 @@ img{
   }
 
   .service-card .banner { 
-    height: 9rem;  
+    height: 6rem;  
   }
 
   .service-card .banner svg {
