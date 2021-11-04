@@ -490,6 +490,7 @@ img{
     align-items: center;
     justify-content: initial;
     overflow-x: auto;
+    width: 100%;
   }
   .service-card .menu {
     width: 100%;
