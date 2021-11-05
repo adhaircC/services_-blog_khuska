@@ -2391,8 +2391,8 @@ nav .compartir{
 }
 
 .seccion-info{
-	padding: 5rem 0;
-	height: 40%;
+	padding: 2rem 0;
+    height: 21%;
 	background-color: #9ca3af;
 	/*align-items: center;*/
 }
@@ -2404,8 +2404,8 @@ nav .compartir{
 	display: inline-block;
 	width:auto;
 	height: auto;
-	background-color: hsl(194, 69%, 37%);
-	border-radius: 50px;
+	/*background-color: hsl(194, 69%, 37%);
+	border-radius: 50px;*/
 	padding: 2vw;
 	margin: 0 3%;
 }
@@ -2486,8 +2486,8 @@ nav .compartir{
 		display: inline-block;
 		width:75vw;
 		height: 80px;
-		background-color: hsl(194, 69%, 37%);
-		border-radius: 50px;
+		/*background-color: hsl(194, 69%, 37%);
+		border-radius: 50px;*/
 		font-size: smaller;
 		/*padding: 6vw;*/
 		margin: 7px 0;
